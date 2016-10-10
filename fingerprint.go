@@ -61,10 +61,9 @@ func isAllowedMac(Mac string) bool {
 	switch Mac {
 	case
 		// Allowed APs MAC addresses
-		"00:04:96:71:f7:a1",
-		"00:04:96:71:f2:c1",
-		"00:04:96:71:f7:a0",
-		"00:04:96:71:f2:c0":
+		"5e:cf:7f:86:45:5b",
+		"5e:cf:7f:17:b9:0c",
+		"5e:cf:7f:86:48:2e":
 		return true
 	}
 	return false
